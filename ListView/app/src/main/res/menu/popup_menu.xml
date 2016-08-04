@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity_ActionBar">
+
+    <item android:id="@+id/copy_card"
+        android:title="Copy"
+        android:icon="@drawable/ic_content_copy_black_24dp"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/delete_card"
+        android:title="delete"
+        android:icon="@drawable/ic_delete_black_24dp"
+        app:showAsAction="always"/>
+</menu>

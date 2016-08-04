@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "278363338051",
+    "firebase_url": "https://zolhi-90cea.firebaseio.com",
+    "project_id": "zolhi-90cea",
+    "storage_bucket": "zolhi-90cea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278363338051:android:bd1a13bc1a74d07e",
+        "android_client_info": {
+          "package_name": "com.example.malz.listview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278363338051-ousobncihvd4c9qo8b7glfth9nhu4iba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW1BjCInz82JP__rcnEVlFUvD28s1pdLI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

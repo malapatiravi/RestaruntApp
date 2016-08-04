@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/scrollview">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--Movie Image-->
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="275dp"
+
+        android:src="@drawable/lion"
+        android:id="@+id/movieImage"
+        />
+    <!--Movie Name-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_toRightOf="@id/movieImage"
+        android:text="Large Text"
+        android:textColor="#f200ff"
+        android:layout_marginTop="10dp"
+        android:id="@+id/movieName"/>
+    <!--Movie Year-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/movieImage"
+        android:layout_below="@id/movieName"
+        android:text="Large Text"
+        android:textColor="#640a69"
+        android:id="@+id/movieYear"/>
+    <!--Movie Director-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/movieImage"
+        android:layout_below="@id/movieYear"
+        android:text="Large Text"
+        android:id="@+id/movieDirector" />
+    <!--Movie Cast-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/movieCast"
+        android:layout_below="@id/movieDirector"
+        android:layout_toRightOf="@id/movieImage" />
+
+    <!--Movie Rating-->
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/movieRating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:numStars="10"
+        android:stepSize="0.01"
+        android:isIndicator="true"
+        android:layout_below="@id/movieImage"/>
+
+    <!--Movie Description-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/movieDesc"
+        android:layout_below="@id/movieRating" />
+
+</RelativeLayout>
+
+ </ScrollView>
