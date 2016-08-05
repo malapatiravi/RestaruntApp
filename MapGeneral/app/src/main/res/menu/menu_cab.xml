@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_duplicate"
+        android:title="Duplicate"
+        android:icon="@drawable/duplicate_icon"
+        app:showAsAction="ifRoom|withText"
+        android:titleCondensed="Delete"/>
+    <item
+        android:id="@+id/item_delete"
+        android:title="Delete"
+        android:icon="@drawable/delete_icon"
+        app:showAsAction="ifRoom|withText"
+        android:titleCondensed="Delete"/>
+</menu>

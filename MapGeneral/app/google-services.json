@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "skilled-acolyte-125905",
+    "project_number": "243526473391",
+    "name": "My Project"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243526473391:android:0ab4a7bdfaecf741",
+        "client_id": "android:com.app.android.mapgeneral",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.app.android.mapgeneral",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243526473391-lqjtg1fk34a17rea6l82jlghkuinrv35.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.android.mapgeneral",
+            "certificate_hash": "9A4BE8424DF6484B9EDF1EB5DBC36B9125C60397"
+          }
+        },
+        {
+          "client_id": "243526473391-vnlor1bvbjrr7q3pgvqb47h7okc1lj4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}
