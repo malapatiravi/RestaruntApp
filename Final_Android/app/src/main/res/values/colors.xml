@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#A94246</color>
+    <color name="colorPrimaryDark">#872300</color>
+    >
+    <color name="colorAccent">#FF4081</color>-->
+    <color name="app_primary_dark">#872328</color>
+    <color name="transparent_black">#E6000000</color>
+    <color name="black">#000000</color>
+    <color name="textColor">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="restaurant_bg">#263238</color>
+    <color name="red">#E64A19</color>
+    <color name="bkg_card">#bcbec9</color>
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#455a64</color>
+    <color name="colorPrimaryLight">#cfd8dc</color>
+    <color name="colorAccent">#ffc107</color>
+
+
+    <color name="black_light">#99444444</color>
+    <color name="gray_dark">#616161</color>
+    <color name="gray_light">#9e9e9e</color>
+    <color name="brown">#5d4037</color>
+
+    <color name="indicator_1">#55B3C2</color>
+    <color name="indicator_2">#64A4A4</color>
+    <color name="indicator_3">#66D7B9</color>
+    <color name="indicator_4">#FDBC7D</color>
+
+
+    <!--Custom colors from kuler-->
+    <color name="custom_deep_blue">#00477D</color>
+    <color name="custom_light_blue">#2FBAFF</color>
+    <color name="custom_ghee">#FFF1CE</color>
+    <color name="custom_yellow">#FF9311</color>
+    <color name="custom_orange">#BD3F00</color>
+    <color name="custom_deep_blue_half_alpha">#8800477D</color>
+    <color name="custom_light_blue_half_alpha">#882FBAFF</color>
+    <color name="custom_ghee_half_alpha">#88FFF1CE</color>
+    <color name="custom_yellow_half_alpha">#88FF9311</color>
+    <color name="custom_orange_half_alpha">#88BD3F00</color>
+
+    <color name="custom_deep_blue_75_alpha">#BB00477D</color>
+    <color name="custom_light_blue_75_alpha">#BB2FBAFF</color>
+    <color name="custom_ghee_75_alpha">#BBFFF1CE</color>
+    <color name="custom_yellow_75_alpha">#BBFF9311</color>
+    <color name="custom_orange_75_alpha">#BBBD3F00</color>
+
+    <color name="custom_deep_blue_95_alpha">#EE00477D</color>
+    <color name="custom_light_blue_95_alpha">#EE2FBAFF</color>
+    <color name="custom_ghee_95_alpha">#EEFFF1CE</color>
+    <color name="custom_yellow_95_alpha">#EEFF9311</color>
+    <color name="custom_orange_95_alpha">#EEBD3F00</color>
+</resources>

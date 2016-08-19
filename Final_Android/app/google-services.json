@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_number": "122887549719",
+    "project_id": "mapgeneral-140219"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122887549719:android:0ab4a7bdfaecf741",
+        "android_client_info": {
+          "package_name": "com.app.android.mapgeneral"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122887549719-b2r3f39qhronap7ltght5m06u92r9mrs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.android.mapgeneral",
+            "certificate_hash": "C5CB7CCDED8825DFBC6452E7183ED6D4413F682E"
+          }
+        },
+        {
+          "client_id": "122887549719-2udiviasnt4of3hdkc739283qg2jmp9n.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "122887549719-65p5tkeofgthujp6e8tv732l6m0cufqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4R5FtIT1Q5grPFAueFX5CFGvMSKCOUzI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

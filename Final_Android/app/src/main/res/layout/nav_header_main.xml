@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@drawable/dinner_table"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:id="@+id/profile_image"
+        android:src="@drawable/actionbar"
+        android:layout_marginLeft="24dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:text="Ravichandra Malapati"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/custom_orange"
+        android:textSize="20sp"
+        android:id="@+id/header_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_name"
+        android:text="android.studio@android.com"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/custom_orange"
+        android:id="@+id/header_email"/>
+
+</RelativeLayout>

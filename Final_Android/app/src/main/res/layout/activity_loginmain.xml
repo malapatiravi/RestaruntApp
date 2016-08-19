@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/custom_deep_blue"
+    android:id="@+id/mainContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <github.chenupt.springindicator.SpringIndicator
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:siTextSize="18sp"
+        app:siTextColor="@color/custom_light_blue"
+        app:siSelectedTextColor="@color/custom_ghee"
+        app:siIndicatorColor="@color/custom_light_blue"
+        app:siRadiusMin="65dp"
+        app:siRadiusMax="65dp"
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity_ViewPagerMain" />
+
+</LinearLayout>

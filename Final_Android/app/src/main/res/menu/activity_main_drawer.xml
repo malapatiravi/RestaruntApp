@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nearby_places"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Nearby Places" />
+        <item
+            android:id="@+id/take_photo_main"
+            android:icon="@drawable/ic_camera_enhance_black_24dp"
+            android:title="Take Photo Now" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_add_creditcard"
+                android:icon="@drawable/ic_credit_card_black_24dp"
+                android:title="Payment Info" />
+            <item
+                android:id="@+id/nav_user_profile"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Info &amp; Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

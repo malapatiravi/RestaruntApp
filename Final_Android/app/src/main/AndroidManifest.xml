@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.android.mapgeneral" >
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/home_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar" >
+
+        <!-- android:theme="@style/AppTheme" -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Activities.MainLogin"
+            android:label="Zolhi Food"
+            android:theme="@style/NoActionBarTheme" >
+            <intent-filter>
+               <!-- <data
+                    android:host="com.app.android.mapgeneral"
+                    android:scheme="MainLogin" />-->
+
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".YouTubeActivity" />
+        <activity android:name=".EmptyActivity" />
+        <activity android:name=".ShowLocationActivity" />
+        <activity
+            android:name=".Activities.MenuPagerActivity"
+            android:label="Zolhi"
+            android:theme="@style/NoActionBarTheme" />
+        <activity android:name=".PhotoIntentActivity" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="Zolhi" />
+        <activity android:name=".GoogleSignin" />
+
+        <service
+            android:name=".Objects.LightSensorService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter android:label="LightSensorServiceLabel" >
+                <action android:name="com.app.android.mapgeneral.Objects.LightSensorSerivice" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

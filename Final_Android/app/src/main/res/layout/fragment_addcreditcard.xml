@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/custom_deep_blue"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/custom_light_blue"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        tools:context=".MainActivity"
+        android:nestedScrollingEnabled="true">
+
+        <TextView
+            android:id="@+id/card_and_zip_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:layout_centerHorizontal="true"
+
+            android:text="Please Enter Details As requested"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry"/>
+        <com.devmarvel.creditcardentry.library.CreditCardForm
+            android:id="@+id/card_and_zip_form"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_and_zip_label"
+            android:padding="15dp"
+            app:include_exp="true"
+
+
+            app:include_helper="true"
+            app:include_security="true"
+            android:layout_centerHorizontal="true"
+            app:include_zip="true"/>
+        <EditText android:id="@+id/card_holder_Name"
+            android:layout_width="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:hint="Enter Full Name"
+            android:layout_below="@+id/card_and_zip_form"
+            android:inputType="textEmailAddress"
+            android:nextFocusDown="@+id/edit_text_password"
+            android:padding="14dp" android:textColor="#616161"
+            android:textColorHint="#AEAEAE"
+            android:textSize="15.3sp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignStart="@+id/edit_text_password" />
+        <EditText android:id="@+id/streetAddress"
+            android:layout_width="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:hint="Street Address"
+            android:layout_below="@+id/card_holder_Name"
+            android:inputType="text"
+            android:nextFocusDown="@+id/edit_text_password"
+            android:padding="14dp" android:textColor="#616161"
+            android:textColorHint="#AEAEAE"
+            android:textSize="15.3sp"
+            android:layout_centerHorizontal="true"
+
+            android:layout_alignStart="@+id/edit_text_password" />
+
+        <Button
+            android:id="@+id/clear_test_button"
+            android:text="Clear Form"
+            android:background="@drawable/my_button_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:ignore="HardcodedText"
+            android:layout_below="@+id/streetAddress"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_alignStart="@+id/btnAddCard"
+            android:layout_alignEnd="@+id/btnAddCard" />
+        <Button
+            android:id="@+id/btnAddCard"
+            android:layout_width="150dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_button_bg"
+            android:textAllCaps="false"
+
+            style="?android:attr/buttonStyleSmall"
+            android:text="Add Card"
+            android:layout_below="@+id/clear_test_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp" />
+
+    </RelativeLayout>
+</ScrollView>
